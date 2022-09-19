@@ -1,16 +1,13 @@
-#Arithmetic operator
+#Operator precedence 
 
-print(10+3)
-print(10/3)
-print(10//3)
-print(10 % 3)
-print(10 ** 3)
-
-
-x = 3
-x = x + 3
+x = 10 + 3 * 2
 print (x)
 
-x = 3
-x += 3 # augmented or enhanced assignment operator
+#Order of operations: ( BODMAS)
+#Exponential (2 ** 2)>multiplication or division>addition or subtraction
+
+x = 10 + 3 * 2 ** 2
+print (x)
+
+x = (10 + 3) * 2 ** 2
 print (x)
