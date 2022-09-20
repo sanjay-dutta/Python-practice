@@ -1,2 +1,2 @@
 # Python-practice
-# It contains a bunch of simple python exercises
+ It contains a bunch of simple python exercises
