@@ -1,0 +1,13 @@
+# Dictionaries
+# keys: values
+# Name: Sanjay
+# email: sanjay@gmail.com
+# phone: 12345
+
+# Define Dictionaries in python
+customer = {
+    "Name": "Sanjay",
+    "email": sanjay@gmail.com
+    "Degree": Masters
+}
+print(customer["Name"])
