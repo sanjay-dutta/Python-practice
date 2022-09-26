@@ -5,5 +5,7 @@ def greet_user(first_name, last_name):
 
 	
 print("Start")
-greet_user("Sanjay", last_name="Dutta") # Positional arguments and keyword arguments together
+# Positional arguments and keyword arguments together
+# Use keyword arguments after positional arguments
+greet_user("Sanjay", last_name="Dutta") 
 print("Finish")
