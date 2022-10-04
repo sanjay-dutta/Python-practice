@@ -1,0 +1,3 @@
+# Method 1: Generating random number list in Python choice()
+# The choice() is an inbuilt function in the Python programming language that returns a random item from a list, tuple, or string.
+
