@@ -6,6 +6,7 @@ import openpyxl as xl
 # import anther package for barchart
 from openpyxl.chart import BarChart, Reference 
 
+# Define a function
 def process_workbook(filename):
     # Loading excel workbook
     wb = xl.load_workbook(filename)
