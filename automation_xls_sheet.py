@@ -3,6 +3,9 @@
 
 # import openpyxl package
 import openpyxl as xl
+# import anther package for barchart
+from openpyxl.chart import BarChart, Reference 
+
 # Loading excel workbook
 wb = xl.load_workbook("transactions.xlsx")
 # in the workbook we have only one sheet
@@ -22,5 +25,16 @@ for row in range(2, sheet.max_row + 1):
     # Set the value the corrected price
     corrected_price_cell.value = corrected_price
 
+# Select a reference class to select a range of values
+values  = Reference(sheet,
+     min_row = 2, 
+     max_row = sheet.max_row,
+     min_col = 4,
+     max_col = 4)
+
+chart = BarChart()
+chart.add_data(values)
+sheet.add_chart(chart, "e2")
+
 # Create and save a new excel sheet
-wb.save("transaction2.xlsx")
+wb.save("transaction3.xlsx")
