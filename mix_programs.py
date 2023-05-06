@@ -301,7 +301,15 @@ employee_file = open("employees.txt", "r")
 for employee in employee_file.readlines():
     print(employee)
 employee_file.close()
-    """
+
+# Writing to Files
+
+employee_file = open("employees.txt", "w")
+# a = append, w = write, r = read, r+ = read and write
+employee_file.write("\nKelly - Customer Seervice")
+#print(employee_file.read())
+employee_file.close()
+    
 
 
 
