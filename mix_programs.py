@@ -311,5 +311,13 @@ employee_file.write("\nKelly - Customer Seervice")
 employee_file.close()
     
 
+# create a file and write to it
 
+employee_file = open("index.html", "w")
+# a = append, w = write, r = read, r+ = read and write
+employee_file.write("<p>This is HTML</p>")
+employee_file.write("\nToby - Human Resources")
+employee_file.write("\nSanjay - Customer Seervice")
+#print(employee_file.read())
+employee_file.close()
 
